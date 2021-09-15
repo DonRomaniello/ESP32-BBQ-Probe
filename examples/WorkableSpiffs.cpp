@@ -28,7 +28,7 @@ void setup() {
  
   file.close();
  
- 
+// git commit comment 
   File file2 = SPIFFS.open("/file.txt", "r");
  
   if (!file2) {
